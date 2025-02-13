@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💗</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script> <!-- Library Confetti -->
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Nailatul Marsya</h1>
+        </header>
+
+        <div class="photo-container">
+            <img src="https://files.catbox.moe/imtd76.jpg" alt="Photo 1">
+        </div>
+
+        <div class="greeting">
+            <p>I loveee youuu nailaakuuu cintakuuu kesayangankuuu princesskuuu duniakuuu biutipulkuuu bidadarikuuu 💗🎀💐</p>
+        </div>
+
+        <button class="btn" onclick="celebrate()">Hore</button>
+
+        <footer>
+            <p>&copy; Made With ❤️</p>
+        </footer>
+    </div>
+
+    <script>
+        // Fungsi untuk memicu efek konfeti saat tombol ditekan
+        function celebrate() {
+            // Menggunakan canvas-confetti untuk membuat konfeti
+            confetti({
+                particleCount: 200,  // Jumlah partikel konfeti
+                spread: 70,  // Penyebaran konfeti
+                origin: { y: 0.6 }  // Posisi awal konfeti
+            });
+        }
+    </script>
+</body>
+</html>

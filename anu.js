@@ -1,0 +1,1 @@
+console.log("dari " + "kemarin ".repeat(100));
